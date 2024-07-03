@@ -1,0 +1,9 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Linguist overrides
+# - Don't show Dockerfile in Linguist stats
+# - Recognize base TSConfig file, `tsconfig.base.json`, as JSONC
+# https://github.com/github-linguist/linguist/blob/master/docs/overrides.md
+Dockerfile -linguist-detectable
+tsconfig.*.json linguist-language=JSON-with-Comments
