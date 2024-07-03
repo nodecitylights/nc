@@ -1,31 +1,31 @@
 {
-	"name": "@author/package",
+	"name": "@nc-js/nc",
 	"version": "0.0.0",
 	"description": "{{desc}}",
 	"license": "MIT",
 	"author": {
-		"name": "{{author}}",
-		"url": "https://github.com/{{author}}"
+		"name": "Samantha Nguyen",
+		"url": "https://github.com/nodecitylights"
 	},
 	"keywords": [
 		"typescript"
 	],
-	"bugs": "https://github.com/{{author}}/{{package}}/issues",
-	"repository": "github:{{author}}/{{package}}",
+	"bugs": "https://github.com/nodecitylights/nc/issues",
+	"repository": "github:nodecitylights/nc",
 	"funding": {
 		"type": "individual",
-		"url": "https://github.com/sponsors/{{author}}"
+		"url": "https://github.com/sponsors/nodecitylights"
 	},
 	"publishConfig": {
 		"access": "public"
 	},
 	"type": "module",
 	"types": "./dist/index.d.ts",
-	"module": "./dist/{{package}}.mjs",
+	"module": "./dist/nc.js",
 	"exports": {
 		".": {
 			"types": "./dist/index.d.ts",
-			"import": "./dist/{{package}}.mjs"
+			"import": "./dist/nc.js"
 		}
 	},
 	"files": [
