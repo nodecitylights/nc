@@ -1,5 +1,5 @@
-import { describe, expect, test } from 'vitest';
-import { indexOfBy, lastIndexOfBy } from '../src';
+import { describe, expect, test } from 'vitest'
+import { indexOfBy, lastIndexOfBy } from '../src'
 
 const isDigit = (s: string) => /^[0-9]$/.test(s) as boolean
 

@@ -1,5 +1,5 @@
-import { expect, test } from 'vitest';
-import { yieldSplitBy } from '../src';
+import { expect, test } from 'vitest'
+import { yieldSplitBy } from '../src'
 
 const isNumber = (c: string): boolean => '123456789'.includes(c)
 
